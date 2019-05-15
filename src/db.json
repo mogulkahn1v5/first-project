@@ -1,0 +1,137 @@
+﻿{
+  "posts": [
+    {
+      "id": 1,
+      "title": "图片一标题",
+      "add_img": "https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_efde696.png"
+    },
+    {
+      "id": 2,
+      "title": "图片二标题",
+      "add_img": "https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_efde696.png"
+    },
+    {
+      "id": 3,
+      "title": "图片三标题",
+      "add_img": "https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_efde696.png"
+    }
+  ],
+  "newsList": [
+    {
+      "id": 1,
+      "title": "列表标题一",
+      "add_time": "20190101",
+      "click": "11"
+    },
+    {
+      "id": 2,
+      "title": "列表标题二",
+      "add_time": "20190202",
+      "click": "22"
+    },
+    {
+      "id": 3,
+      "title": "列表标题三",
+      "add_time": "20190303",
+      "click": "33"
+    },
+    {
+      "id": 4,
+      "title": "列表标题四",
+      "add_time": "20190404",
+      "click": "44"
+    },
+    {
+      "id": 5,
+      "title": "列表标题五",
+      "add_time": "20190505",
+      "click": "55"
+    },
+    {
+      "id": 6,
+      "title": "列表标题六",
+      "add_time": "20190606",
+      "click": "66"
+    }
+  ],
+  "newsDetail": [
+    {
+      "id": 1,
+      "title": "详情标题一",
+      "add_time": "20190101",
+      "click": "11",
+      "type": "分类一",
+      "content": "<h1>内容一内容一内容一内容一内容一内容一内容一内容一内容一内容一</h1>"
+    },
+    {
+      "id": 2,
+      "title": "详情标题二",
+      "add_time": "20190202",
+      "click": "22",
+      "type": "分类二",
+      "content": "<h2>内容二内容二内容二内容二内容二内容二内容二内容二内容二内容二</h2>"
+    },
+    {
+      "id": 3,
+      "title": "详情标题三",
+      "add_time": "20190303",
+      "click": "33",
+      "type": "分类三",
+      "content": "<p>内容三内容三内容三</p><p>内容三内容三内容三内容三内容三内容三内容三</p>"
+    },
+    {
+      "id": 4,
+      "title": "详情标题四",
+      "add_time": "20190404",
+      "click": "44",
+      "type": "分类四",
+      "content": "内容四内容四内容四内容四内容四内容四内容四内容四内容四内容四"
+    },
+    {
+      "id": 5,
+      "title": "详情标题五",
+      "add_time": "20190505",
+      "click": "55",
+      "type": "分类五",
+      "content": "内容五内容五内容五内容五内容五内容五内容五内容五内容五内容五"
+    },
+    {
+      "id": 6,
+      "title": "详情标题六",
+      "add_time": "20190606",
+      "click": "66",
+      "type": "分类六",
+      "content": "内容六内容六内容六内容六内容六内容六内容六内容六内容六内容六"
+    }
+  ],
+  "photoList": [
+    {
+      "id": 0,
+      "title": "图文全部",
+      "img_url": "https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_efde696.png",
+      "zhaiyao": "<h1>内容全部内容全部内容全部内容全部内容全部内容全部内容全部内容全部</h1>"
+    },
+    {
+      "id": 1,
+      "title": "图文标题一",
+      "img_url": "https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_efde696.png",
+      "zhaiyao": "内容一内容一内容一内容一内容一内容一内容一内容一内容一内容一"
+    },
+    {
+      "id": 2,
+      "title": "图文标题二",
+      "img_url": "https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_efde696.png",
+      "zhaiyao": "内容二内容二内容二内容二内容二内容二内容二内容二内容二内容二内容二"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
