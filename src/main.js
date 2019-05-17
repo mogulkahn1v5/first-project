@@ -23,6 +23,20 @@ import Axios from 'axios'
 Axios.defaults.baseURL = 'http://localhost:3000/'
 Vue.prototype.$axios = Axios
 
+// 配置请求拦截器，显示loading图标
+Axios.interceptors.request.use(function (config) {
+  MintUI.Indicator.open({
+    text: '玩命加载中...'
+  })
+  return config
+})
+// 配置请求拦截器，关闭loading图标
+Axios.interceptors.response.use(function (response) {
+  // response.config 类似上面 config
+  MintUI.Indicator.close()
+  return response
+})
+
 // 安装插件 注册全局组件及挂载属性
 Vue.use(MintUI)
 
@@ -31,9 +45,16 @@ Vue.component(MyUl.name, MyUl)
 Vue.component(MyLi.name, MyLi)
 Vue.component(NavBar.name, NavBar)
 
+// 设置中文显示
+Moment.locale('zh-cn')
 // 过滤器
-Vue.filter('converTime', function (data, formatStr) {
-  return Moment(data).format(formatStr)
+// Vue.filter('converTime', function (data, formatStr) {
+//   return Moment(data).format(formatStr)
+// })
+
+// 相对时间
+Vue.filter('converTime', function (data) {
+  return Moment(data).fromNow()
 })
 
 Vue.config.productionTip = false
