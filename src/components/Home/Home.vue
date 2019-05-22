@@ -30,12 +30,12 @@ export default {
       msg: 'hello app',
       imgs: [],
       grids: [
-        {'className': 'newsCol', 'title': '新闻资讯', 'router': {name: 'news.list'}},
-        {'className': 'picCol', 'title': '图文分享', 'router': {name: 'photo.list', params: {categoryId: 0}}},
-        {'className': 'newsCol', 'title': '商品展示', 'router': {name: 'news.list'}},
-        {'className': 'picCol', 'title': '留言反馈', 'router': {name: 'news.list'}},
-        {'className': 'newsCol', 'title': '搜索资讯', 'router': {name: 'news.list'}},
-        {'className': 'picCol', 'title': '联系我们', 'router': {name: 'news.list'}}
+        {className: 'newsCol', title: '新闻资讯', router: {name: 'news.list'}},
+        {className: 'picCol', title: '图文分享', router: {name: 'photo.list', params: {categoryId: 0}}},
+        {className: 'newsCol', title: '商品展示', router: {name: 'goods.list', query: {id: 1}}},
+        {className: 'picCol', title: '留言反馈', router: {name: 'news.list'}},
+        {className: 'newsCol', title: '搜索资讯', router: {name: 'news.list'}},
+        {className: 'picCol', title: '联系我们', router: {name: 'news.list'}}
       ]
     }
   },

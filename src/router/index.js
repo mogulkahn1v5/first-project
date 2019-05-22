@@ -7,6 +7,7 @@ import Search from '@/components/Search/Search'
 import NewsList from '@/components/News/NewsList'
 import NewsDetail from '@/components/News/NewsDetail'
 import PhotoList from '@/components/Photo/PhotoList'
+import GoodsList from '@/components/Goods/GoodsList'
 
 // 注册全局组件 router-view rouoter-link
 // 未来所有组件中的this对象，就都具备该属性，所有的this其实就是Vue的子类对象
@@ -56,6 +57,12 @@ export default new Router({
       path: '/photo/list/:categoryId',
       name: 'photo.list',
       component: PhotoList
+    },
+    // 商品列表
+    {
+      path: '/goods/list',
+      name: 'goods.list',
+      component: GoodsList
     }
   ]
 })

@@ -133,5 +133,34 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "goodsList": [
+    {
+      "id": 1,
+      "title": "华为荣耀1",
+      "img_url": "https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_efde696.png",
+      "zhaiyao": "<h1>内容全部内容全部内容全部内容全部内容全部内容全部内容全部内容全部</h1>",
+      "sell_price": "2100",
+      "market_price": "2500",
+      "stock": "60"
+    },
+    {
+      "id": 2,
+      "title": "华为荣耀2",
+      "img_url": "https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_efde696.png",
+      "zhaiyao": "内容一内容一内容一内容一内容一内容一内容一内容一内容一内容一",
+      "sell_price": "3100",
+      "market_price": "3500",
+      "stock": "90"
+    },
+    {
+      "id": 3,
+      "title": "华为荣耀3",
+      "img_url": "https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_efde696.png",
+      "zhaiyao": "内容二内容二内容二内容二内容二内容二内容二内容二内容二内容二内容二",
+      "sell_price": "4100",
+      "market_price": "4500",
+      "stock": "120"
+    }
+  ]
 }
